@@ -1,0 +1,348 @@
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    background-color: black; /* Amazon-like dark blue/black color */
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust logo size */
+}
+
+.custom-select {
+    background-color: #ffffff; /* White background for the select box */
+    border: 1px solid #ddd;
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.custom-select:focus {
+    box-shadow: none; /* Remove shadow on focus */
+    border-color: #f0c14b; /* Match the Amazon theme color */
+}
+
+.form-control {
+    border-radius: 0; /* Remove rounded corners for the search input */
+}
+
+.form-control:focus {
+    box-shadow: none; /* Remove shadow on focus */
+    border-color: #f0c14b; /* Match the Amazon search box color */
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border-color: #f0c14b;
+}
+
+.btn-outline-light:hover {
+    background-color: #f0c14b;
+    color: #232f3e; /* Dark color to match the navbar */
+}
+
+.nav-link {
+    color: #ffffff; /* White text color for nav links */
+}
+
+.nav-link:hover {
+    color: #f0c14b; /* Light yellow color on hover */
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #007bff;
+}
+
+.breadcrumb {
+    background-color: #232f3e; /* Light background for the breadcrumb */
+    border: 1px solid #e1e1e1; /* Border to define the breadcrumb area */
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    padding: 0.75rem 1rem; /* Padding around the breadcrumb items */
+    font-size: 0.875rem; /* Slightly smaller font size */
+    margin-bottom: 1rem; /* Space below the breadcrumb */
+}
+
+.breadcrumb-item {
+    display: inline-block; /* Inline display for items */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/"; /* Separator between items */
+    padding: 0 0.5rem; /* Space around the separator */
+    color: #6c757d; /* Gray color for the separator */
+}
+
+.breadcrumb-item a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.breadcrumb-item.active {
+    color: #6c757d; /* Gray color for the active item */
+}
+
+.breadcrumb-item.active::before {
+    content: ""; /* Remove separator before the active item */
+}
+
+/* styles.css */
+.best-sellers {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.best-sellers .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.best-sellers h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+.product-card .price {
+    font-size: 1.125rem;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+
+/* styles.css */
+.best-sellers-toys-crayons {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.best-sellers-toys-crayons .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.best-sellers-toys-crayons h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+.product-card .price {
+    font-size: 1.125rem;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+/* styles.css */
+
+/* General Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Common Styles for Sections */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+.product-card .price {
+    font-size: 1.125rem;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Specific Section Styles */
+.gaming-merchandise {
+    background-color: #f0f8ff; /* Light blue background for gaming */
+}
+
+.activity-trackers-smartwatches {
+    background-color: #f9f9f9; /* Light gray background for tech */
+}
+
+.warm-decor {
+    background-color: #fff5e6; /* Warm light yellow background for decor */
+}
+
+.shoes-prices {
+    background-color: #f2f2f2; /* Light gray background for shoes */
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+
+
